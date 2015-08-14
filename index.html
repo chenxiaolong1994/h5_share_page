@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Kittyplay</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+<div class="content">  <!--最外部div -->
+    <div class="div-bar">
+        <div class="wp-albums" id="wp"><span langkey="wp"></span></div>
+        <div class="wp-albums" id="albums"><span langkey="albums"></span></div>
+        <div><div class="line-position"></div></div>
+    </div>
+    <div class="J_albums"></div>
+    <div class="J_wpList">
+            <div class="ad">
+                <img src="assets/images/wp_subject14.jpg" class="bottom-ad">
+                <div class="gp"><img src="assets/images/gp.png"></div>
+                <div class="bottom-adwords"><span langkey="ad_words"></span></div>
+            </div>
+            <div class="ad">
+               <img src="assets/images/wp_subject17.jpg" class="bottom-ad">
+               <div class="gp"><img src="assets/images/gp.png"></div>
+               <div class="bottom-adwords"><span langkey="ad_words"></span></div>
+            </div>
+    </div>
+    <div id="bg"></div>
+    <div id="show"><img src="" id="pic" width="100%"></div>
+    <img src="assets/images/music.png"  id="audio-btn" width="5%">
+    <audio controls="controls" src="assets/music/dream.mp3" loop="loop" id="audo" hidden="hidden" autoplay="autoplay">
+    </audio>
+</div>
+</body>
+<script src="assets/libs/jquery.min.js"></script>
+<script src="assets/libs/mustache.min.js"></script>
+<script src="assets/js/index.js"></script>
+</html>

@@ -1,0 +1,3 @@
+ {{#data}}
+   <div class="wp-image"><img src="{{source}}"> </div>
+ {{/data}}

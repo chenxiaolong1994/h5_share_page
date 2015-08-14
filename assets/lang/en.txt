@@ -1,0 +1,8 @@
+{
+"wp":"Wallpapers",
+"albums":"Albums",
+"ad_words":"Get this and more <br/>with free KittyPlay app",
+"amazing_wallpapers":"amazing_wallpapers",
+"more":"click here to get more",
+"error":"error,reload this page?"
+}

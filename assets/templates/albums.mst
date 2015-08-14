@@ -1,0 +1,11 @@
+{{!albums模板}}
+{{#data}}
+  <div class="div-albums">
+            <img src="{{source}}" class="albums">
+            <div class="albums-font"><span langkey="amazing"></span>
+                <span class="icon"><img src="assets/images/icon.png">{{download}}</span>
+                <br/>  <span class="album-size">{{size}}Mb</span>
+            </div>
+        </div>
+ {{/data}}
+ <div class="more"><span langkey="more"></span></div>
